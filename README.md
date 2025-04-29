@@ -35,11 +35,11 @@ Modify these variables in the script:
 
 ## How It Works
 
-1. Fetches recent stock closing prices
+1. Fetches recent stock closing prices using API 
 2. Calculates percentage change
 3. If change exceeds threshold:
-   - Fetches related news articles
-   - Sends WhatsApp alerts via Twilio
+   - Fetches related news articles from mewsapi.org
+   - Sends WhatsApp alerts via Twilio using twilio API
 
 ## Requirements
 
